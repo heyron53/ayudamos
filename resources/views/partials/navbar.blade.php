@@ -26,7 +26,7 @@
                   <input class="dropdown-item" type="submit" name="enviar" id="enviar" value="Mis consultas">
             </form>
                   <a class="dropdown-item" href="crearConsulta">Crear consulta</a>
-                  <a class="dropdown-item" href="#">Información del foro</a>
+                  <a class="dropdown-item" href="info">Información del foro</a>
             <form action="cerrarSesion" method="POST">
                   @csrf
                   @method('POST') 
@@ -70,7 +70,7 @@
                   <input class="dropdown-item" type="submit" name="consulta" id="consulta" value="Mis consultas">
             </form>
                   <a class="dropdown-item" href="crearConsulta">Crear consulta</a>
-                  <a class="dropdown-item" href="#">Información del foro</a>
+                  <a class="dropdown-item" href="info">Información del foro</a>
             <form action="cerrarSesion" method="POST">
                   @csrf
                   @method('POST') 
