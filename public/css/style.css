@@ -1,0 +1,52 @@
+html {
+   min-height: 100%;
+   position: relative;
+ }
+
+ body {
+   margin: 0;
+   margin-bottom: 40px;
+   
+ }
+
+footer {
+   position: absolute;
+   left:0px;
+   bottom: 0; 
+   width:100%;
+}
+
+.valoracion {
+   position: relative;
+   overflow: hidden;
+   display: inline-block;
+}
+
+.valoracion input {
+   position: absolute;
+   top: -100px;
+}
+
+
+.valoracion label {
+   float: right;
+   color: #c1b8b8;
+   font-size: 30px; 
+}
+
+.valoracion label:hover,
+.valoracion label:hover ~ label,
+.valoracion input:checked ~ label {
+   color: #ffff00;
+}
+
+#cambiarBarra{
+   margin-right: 10px;
+   margin-top: 10px;
+   width: 80%;
+   height: 80%;
+}
+
+#perfilUsuarios{
+   margin-top: 5%;
+}
