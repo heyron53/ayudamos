@@ -2,7 +2,7 @@
 @section('contenido')
 <div class="container alert">
 <div class="table-responsive">
-<h1>CONSULTAS</h1>
+<h1>FICHEROS</h1>
     <table class="table table-bordered bg-white text-dark" id="myTable">
         <thead class="col-lg-12">
             <tr>
