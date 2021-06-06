@@ -5,7 +5,7 @@
 <div class="container alert">
     <h1>ASIGNATURAS</h1>
     <ul class="nav nav-tabs">
-    <li class="nav-item">
+        <li class="nav-item">
             <a class="nav-link" aria-current="page" href="listarCursos">Cursos</a>
         </li>
         <li class="nav-item">

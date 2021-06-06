@@ -21,10 +21,13 @@
         </div>
         <div class="table-responsive col-md-10">
         <table class="table table-bordered bg-white text-dark" id="myTable">
+            <thead>
                 <tr>
                     <th>CURSOS</th>
                     <th></th>
                 </tr>
+            </thead>
+            <tbody>
                 @forelse ($cursos as $curso)
                 <tr>
                     <td>{{ $curso->nombre }}</td>
@@ -42,6 +45,7 @@
                     <td colspan=2>No se han encontrado cursos</td>
                 </tr> 
                 @endforelse
+            </tbody>
             </table>
         </div>
     </div>
