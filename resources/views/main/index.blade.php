@@ -1,4 +1,5 @@
 @extends('plantillabase')
+
 @section('contenido')
 <div class="container alert">
 <div class="table-responsive">

@@ -9,7 +9,7 @@ class Usuario extends Model
 {
     protected $table = 'usuarios';
     protected $primaryKey = 'correo';
-    protected $fillable = ['correo','nickname','password','nombre','apellidos','correo','rol','conocimientos','fechaCreacion','puntuacion','perfil'];
+    protected $fillable = ['correo','nickname','password','nombre','apellidos','rol','conocimientos','fechaCreacion','puntuacion','perfil'];
     protected $keyType = 'string';
 
     public $timestamps = false;
